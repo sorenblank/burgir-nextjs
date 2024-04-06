@@ -11,7 +11,7 @@
   color-scheme: light;
 
   --rich-black-fogra-29: hsl(210, 26%, 7%);
-  --champagne-pink_20: hsla(23, 61%, 86%, 0.2);
+  --champagne-pink_20: #f1d6c6;
   --independence_30: hsla(245, 17%, 29%, 0.3);
   --gray-x-11-gray: hsl(0, 0%, 73%);
   --champagne-pink: hsl(23, 61%, 86%);
@@ -19,7 +19,7 @@
   --sonic-silver: hsl(0, 0%, 47%);
   --deep-saffron: hsl(32, 100%, 59%);
   --dark-orange: hsl(28, 100%, 58%);
-  --desert-sand: hsl(23, 49%, 82%);
+  --desert-sand: #e8ccbb;
   --isabelline: hsl(38, 44%, 96%);
   --gainsboro: hsl(0, 0%, 87%);
   --tangerine: hsl(31, 84%, 50%);
@@ -46,7 +46,7 @@
   }
 
   .container{
-    @apply px-[15px] mx-auto sm:max-w-[550px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1200px];
+    @apply px-[15px] sm:mx-auto sm:w-full sm:max-w-[550px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1200px];
   }
 
   .h1, .h2, .h3, .h4{
@@ -55,6 +55,10 @@
 
   .h1, .h2 {
     @apply text-[3.2rem] ;
+  }
+
+  .h1{
+    @apply font-bold;
   }
 
   .h2, .h3, .h4{

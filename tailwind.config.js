@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       colors: {
         n: {
+          orange: "#ff9d2e",
           white: "#ffffff",
           offwhite: "#f1d6c6",
           offwhite2: "#e8ccbb",
@@ -19,9 +20,10 @@ module.exports = {
           notyellow: "#FF8D29",
           sonicSilver: "#787878",
           richblackfogra: "#0e0e12",
-          champagnepink: "#f5d3dc",
+          champagnepink: "#f1d6c6",
           saffron: "#ffcc33",
-          darkOrange: "#ff6600",
+          darkOrange: "#ff8d29",
+          desertSand: "#e8ccbb",
         },
       },
       fontFamily: {

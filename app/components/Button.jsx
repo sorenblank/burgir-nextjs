@@ -1,6 +1,6 @@
-const Button = ({className,children}) => {
+const Button = ({className, children, orange}) => {
   return (
-    <button className={`px-[35px] font-rubik block bg-n-darkOrange overflow-hidden relative z-[1] text-white text-[14px] h-[45px] text-medium hover:[--scale:500] ${className ? className : ''}`}
+    <button className={`rounded-[6px] px-[35px] font-rubik block ${orange ? 'bg-n-darkOrange' : 'bg-n-orange'} overflow-hidden relative z-[1] text-white text-[14px] h-[45px] text-medium hover:[--scale:500] ${className ? className : ''}`}
             style={{transition:'0.25s ease'}}>
         {children}
         <div 
