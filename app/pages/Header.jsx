@@ -56,7 +56,7 @@ const Header = () => {
 
         </nav>
 
-        <div className='flex flex-row gap-5'>
+        <div className='flex flex-row gap-5 items-center'>
 
         <Button className="hidden sm:block">
           Reservation
