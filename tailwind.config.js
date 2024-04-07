@@ -24,6 +24,7 @@ module.exports = {
           saffron: "#ffcc33",
           darkOrange: "#ff8d29",
           desertSand: "#e8ccbb",
+          issabeline: "#f9f6f0",
         },
       },
       fontFamily: {
