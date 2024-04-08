@@ -43,7 +43,15 @@
 ::-webkit-scrollbar-thumb { background-color: var(--deep-saffron); }
 ::-webkit-scrollbar-thumb:hover { background-color: var(--tangerine); }
 
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+}
 
+100% {
+    transform: scale(1.05);
+}
+}
 
 @layer base {
   html{
@@ -81,6 +89,7 @@
   .h4{
     @apply text-[1.8rem];
   }
+
 }
 
 @layer utilities {

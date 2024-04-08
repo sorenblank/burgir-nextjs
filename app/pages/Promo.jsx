@@ -4,7 +4,7 @@ import { promo } from "../lib/constants"
 
 const Promo = () => {
   return (
-    <section className="bg-n-issabeline relative py-[40px]">
+    <section className="bg-n-issabeline relative py-[40px]" id="meals">
       <div className="containerr">
       <h2 className="h2 flex justify-center py-[40px] underline underline-offset-[12px]">
         Our New&nbsp;<span className="text-n-orange">Meals!</span>

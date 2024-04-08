@@ -48,7 +48,7 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-rubik text-2xl text-n-richblackfogra font-medium px-[10px] py-[15px] ${item.onlyMobile ? 'lg:hidden' : ''} lg:text-[15px]`}>
+                className={`block relative font-rubik text-2xl text-n-richblackfogra font-medium px-[10px] py-[15px] ${item.onlyMobile ? 'lg:hidden' : ''} lg:text-[15px] hover:text-n-darkOrange`}>
                 {item.title}
               </a>
             ))}

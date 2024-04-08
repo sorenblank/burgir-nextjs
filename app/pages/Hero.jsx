@@ -5,7 +5,7 @@ import { hero } from "../lib/constants"
 
 const Hero = () => {
   return (
-    <section className="bg-no-repeat bg-cover bg-center pt-[145px] pb-[60px] text-center md:relative md:text-left md:overflow-hidden md:z-[1] lg:min-h-[660px] lg:grid lg:items-center xl:min-h-[770px]" style={{ backgroundImage: `url(${hero.bgImage})` }}>
+    <section id="home" className="bg-no-repeat bg-cover bg-center pt-[145px] pb-[60px] text-center md:relative md:text-left md:overflow-hidden md:z-[1] lg:min-h-[660px] lg:grid lg:items-center xl:min-h-[770px]" style={{ backgroundImage: `url(${hero.bgImage})` }}>
       <div className="containerr">
         <div className="md:mx-0">
           <p className="text-n-darkOrange font-shadows text-[1.8rem] tracking-[1px] mb-[25px] lg:text-[32px]">{hero.title}</p>

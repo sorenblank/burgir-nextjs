@@ -6,13 +6,13 @@ export const navigation = [
     },
     {
       id: "1",
-      title: "About Us",
-      url: "#about",
+      title: "Our Meals",
+      url: "#meals",
     },
     {
       id: "2",
-      title: "Shop",
-      url: "#shop",
+      title: "About",
+      url: "#about",
     },
     {
       id: "3",
@@ -75,3 +75,18 @@ export const promo = [
     cardImage: "/promo-5.png",
   }
 ];
+
+
+export const about = {
+  title: {text:"Caferio, Burgers, and Best Meals ", highlight:"in Town!"},
+  description: "Burgir is a modern and stylish restaurant that offers a variety of delicious meals. Our menu includes a wide range of burgers, sandwiches, salads, and more. Visit us today and experience the best meals in town!",
+  bannerImage: {url:"/about-banner.png",alt:"about banner"},
+  redShape: {url:"/sale-shape-red.png",alt:"red shape"},
+  facilities: [
+    "High Speed Free Wi-Fi",
+    "Spacific Family And Kids Zone",
+    "Takeout Available",
+    "Fast Food Home Delivery",
+  ],
+  buttonText : "Order Now",
+}
