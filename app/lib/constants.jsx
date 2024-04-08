@@ -47,31 +47,31 @@ export const promo = [
   {
     id: "0",
     cardTitle: "Steak & Potatoes",
-    cardDescription: "Hearty American dish with grilled steak and roasted potatoes.",
+    cardDescription: "Hearty American dish with grilled seasoned steak and roasted spicy potatoes.",
     cardImage: "/promo-1.png",
   },
   {
     id: "1",
     cardTitle: "Bossam",
-    cardDescription: "Korean pork belly dish typically served with kimchi and radish salad.",
+    cardDescription: "Korean pork belly dish - typically served with kimchi and different salads.",
     cardImage: "/promo-2.png",
   },
   {
     id:"2",
     cardTitle: "Korean fried chicken",
-    cardDescription: "Crispy fried chicken glazed in a sweet and spicy sauce.",
+    cardDescription: "Crispy fried chicken glazed in a sweet and spicy sauce and potato chips.",
     cardImage: "/promo-3.png",
   },
   {
     id:"3",
     cardTitle: "Breakfast Platter",
-    cardDescription: "Delightful breakfast plate features eggs, toast, ham, and fresh veggies.",
+    cardDescription: "Delightful breakfast plate features sunshine eggs, toast, ham, and fresh veggies.",
     cardImage: "/promo-4.png",
   },
   {
     id:"4",
     cardTitle: "Vegetable Platter",
-    cardDescription: "Healthy and delicious platter with a variety of fresh vegetables and dips.",
+    cardDescription: "Healthy and delicious platter with a variety of fresh vegetables and sauce dips.",
     cardImage: "/promo-5.png",
   }
 ];
