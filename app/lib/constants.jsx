@@ -35,7 +35,7 @@ export const navigation = [
 export const hero = {
     title: "Eat Sleep And",
     subTitle: "Supper delicious Burger in town!",
-    description: "Food is any substance consumed to provide nutritional support for an organism.",
+    description: "Something you definitely have never tasted before ~ Come and try our delicious burgers!",
     buttonText: "Book A Table",
     bgImage: "/hero-bg.jpg",
     bannerImage: "/hero-banner-bg.png",
