@@ -12,7 +12,7 @@ const Promo = () => {
         <ul className="flex gap-[12px] overflow-x-auto pb-[40px] scroll-snap-inline scrollbar">
           {
             promo.map((item) => (
-              <li key={item.id} className="overflow-hidden min-w-full w-full min-h-[320px] bg-white rounded-xl snap-start list-none sm:min-w-[calc(50%-5px)] lg:min-w-[calc(33.33%-6.66px)] xl:min-w-[calc(25%-7.5px)]" style={{boxShadow: "0 1px 4px hsla(0, 0%, 0%, 0.2)"}}>
+              <li key={item.id} className="overflow-hidden min-w-full w-full min-h-[350px] bg-white rounded-xl snap-start list-none sm:min-w-[calc(50%-5px)] lg:min-w-[calc(33.33%-6.66px)] xl:min-w-[calc(25%-7.5px)]" style={{boxShadow: "0 1px 4px hsla(0, 0%, 0%, 0.2)"}}>
                 <div className="flex flex-col min-h-[450px] justify-between relative text-center px-[40px] py-[30px] z-[1]">
                   <div>
                     <h3 className="h3 my-[15px]" style={{transition:'0.25s ease'}}>
