@@ -90,3 +90,64 @@ export const about = {
   ],
   buttonText : "Order Now",
 }
+
+
+export const menu = {
+  subTitle: "Popular Dishes",
+  title: {text: "Our Delicious", highlight: "Foods"},
+  description: "We have a wide range of delicious foods that you can choose from. Check out our menu below.",
+
+  filterItems: [
+    "All",
+    "American",
+    "Korean",
+    "Mixed"],
+
+  items: [
+      {
+        dish : "Steak & Potatoes",
+        image: "/promo-1.png",
+        category: "American",
+        price: "$19.99",
+        previousPrice: "$24.99",
+        discount: "20%",
+        rating: 5
+      },
+      {
+        dish: "Bossam",
+        image: "/promo-2.png",
+        category: "Korean",
+        price: "$14.99",
+        previousPrice: "$19.99",
+        discount: "25%",
+        rating: 4
+      },
+      {
+        dish: "Korean Fried Chicken",
+        image: "/promo-3.png",
+        category: "Korean",
+        price: "$11.99",
+        previousPrice: "$14.99",
+        discount: "20%",
+        rating: 4,
+      },
+      {
+        dish: "Breakfast Platter",
+        image: "/promo-4.png",
+        category: "American",
+        price: "$9.99",
+        previousPrice: "$12.99",
+        discount: "23%",
+        rating: 5,
+      },
+      {
+        dish: "Vegetable Platter",
+        image: "/promo-5.png",
+        category: "Mixed",
+        price: "$7.99",
+        previousPrice: "$9.99",
+        discount: "20%",
+        rating: 4,
+      }
+    ]
+}
