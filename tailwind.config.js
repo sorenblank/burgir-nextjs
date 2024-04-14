@@ -28,6 +28,7 @@ module.exports = {
           cinnabar: "#f42f25",
           cultured : "#ededed",
           gray: "#bababa",
+          notgray: "#dedede"
         },
       },
       fontFamily: {
