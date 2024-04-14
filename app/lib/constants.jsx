@@ -11,8 +11,8 @@ export const navigation = [
     },
     {
       id: "2",
-      title: "About",
-      url: "#about",
+      title: "Menu",
+      url: "#menu",
     },
     {
       id: "3",

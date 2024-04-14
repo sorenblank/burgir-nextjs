@@ -4,6 +4,7 @@ import Header from "@/app/pages/Header";
 import Hero from "@/app/pages/Hero";
 import Promo from "@/app/pages/Promo";
 import About from "@/app/pages/About";
+import Menu from "@/app/pages/Menu";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <Promo />
       <About />
+      <Menu />
     </div>
     </>
   );
