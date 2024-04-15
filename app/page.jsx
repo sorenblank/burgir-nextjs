@@ -8,6 +8,7 @@ import Menu from "@/app/pages/Menu";
 import CTA from "@/app/pages/CTA";
 import Delivery from "@/app/pages/Delivery";
 import Reviews from "@/app/pages/Reviews";
+import Banner from "@/app/pages/Banner";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <CTA />
       <Delivery />
       <Reviews />
+      <Banner />
     </div>
     </>
   );
