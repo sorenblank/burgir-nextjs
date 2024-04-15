@@ -4,7 +4,7 @@ import { IoStar } from "react-icons/io5"
 
 const Reviews = () => {
   return (
-    <section id="menu" className="text-center bg-n-issabeline py-[60px] lg:py-[120px]">
+    <section id="reviews" className="relative text-center bg-n-issabeline py-[60px] lg:py-[120px]">
       <div className="containerr">
         <p className="text-n-cinnabar font-rubik text-center font-medium text-[16px]">
           {reviews.subTitle}
@@ -59,14 +59,12 @@ const Reviews = () => {
           )}
         </ul>
       </div>
-
+      
       <div
         className="absolute bottom-0 left-0 w-full h-[15px] bg-repeat bg-bottom"
-        style={{ backgroundImage: "url('/shape-white.png')" }}
-      />
-
+        style={{backgroundImage: "url('/shape-white.png')"}}/>
+      
     </section>
-
   )
 }
 
