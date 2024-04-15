@@ -156,7 +156,7 @@ export const menu = {
 export const cta = {
   title : {text: "We Have Excellent Of", highlight: "Quality Burgers!"},
   description: "Our burgers are made with the finest ingredients and are cooked to perfection.  We have a wide range of burgers and meals to choose from. Visit us today and try our delicious burgers!",
-  buttonText: "Visit Us",
+  buttonText: "Get A Burger",
   bgImage: "/hero-bg.jpg",
   bannerImage: "/cta-banner.png",
   saleImage: "/sale-shape.png",
