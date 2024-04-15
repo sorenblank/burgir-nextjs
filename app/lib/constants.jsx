@@ -161,3 +161,12 @@ export const cta = {
   bannerImage: "/cta-banner.png",
   saleImage: "/sale-shape.png",
 }
+
+
+export const delivery = {
+  title: {text: "Takeout & Get Delivered on Right Time", highlight: "Your Doorstep!"},
+  description: "We offer takeout and delivery services for your convenience. Order your favorite meals and have them delivered to your doorstep. Enjoy delicious food from the comfort of your home!",
+  buttonText: "Order Now",
+  bgImage: "/delivery-banner-bg.png",
+  bannerImage: "/delivery-boy.svg",
+}
