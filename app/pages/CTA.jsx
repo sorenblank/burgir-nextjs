@@ -16,7 +16,7 @@ const CTA = () => {
             {cta.title.text}{" "} <span className="text-n-yellow">{cta.title.highlight}</span>
           </h2>
           <p className="text-n-notgray text-[16px] mt-[25px] mb-[20px]">{cta.description}</p>
-          <Button>{cta.buttonText}</Button>
+          <Button className="align-middle mx-auto md:mx-0">{cta.buttonText}</Button>
         </div>
       </div>
     </section>
