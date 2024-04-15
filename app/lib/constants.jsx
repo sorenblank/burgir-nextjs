@@ -170,3 +170,46 @@ export const delivery = {
   bgImage: "/delivery-banner-bg.png",
   bannerImage: "/delivery-boy.svg",
 }
+
+export const reviews = {
+  subTitle: "Testimonials",
+  title: {text: "Our Customers", highlight: "Reviews"},
+  description: "Our customers love our food and service. Here are some of the reviews we have received.",
+  reviews: [
+    {
+      name: "Robert William",
+      title: "CEO of Pingendo",
+      review: "The food was amazing! I loved the burgers and the service was excellent. I will definitely be back soon!",
+      avatar: "/avatar-1.jpg",
+      rating: 5,
+    },
+    {
+      name: "Jane Smith",
+      title: "Food Blogger",
+      review: "The best burgers in town! I have tried many burgers but nothing compares to the ones at Burgir. Highly recommended!",
+      avatar: "/avatar-2.jpg",
+      rating: 5,
+    },
+    {
+      name: "Mike Johnson",
+      title: "Tech Entrepreneur",
+      review: "Great food and great service! The staff was friendly and the food was delicious. I will be recommending this place to my friends.",
+      avatar: "/avatar-3.jpg",
+      rating: 5,
+    },
+    {
+      name: "Dan Brown",
+      title: "Food Critic",
+      review: "The food was delicious and the prices were reasonable. I will definitely be coming back for more!",
+      avatar: "/avatar-1.jpg",
+      rating: 5,
+    },
+    {
+      name: "John Davis",
+      title: "Food Enthusiast",
+      review: "The best burgers I have ever tasted! The food was fresh and flavorful. I will be recommending this place to everyone I know.",
+      avatar: "/avatar-2.jpg",
+      rating: 5,
+    }
+  ]
+}

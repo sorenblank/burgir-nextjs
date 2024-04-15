@@ -7,6 +7,7 @@ import About from "@/app/pages/About";
 import Menu from "@/app/pages/Menu";
 import CTA from "@/app/pages/CTA";
 import Delivery from "@/app/pages/Delivery";
+import Reviews from "@/app/pages/Reviews";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Menu />
       <CTA />
       <Delivery />
+      <Reviews />
     </div>
     </>
   );
