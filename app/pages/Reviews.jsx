@@ -19,8 +19,8 @@ const Reviews = () => {
         </p>
 
         <ul className="flex gap-[10px] overflow-x-auto pb-[40px] scroll-snap-inline scrollbar">
-          {reviews.reviews.map((item) => (
-            <li className="list-none snap-start min-h-[200px] min-w-full sm:min-w-[calc(50%-5px)] lg:min-w-[calc(33.33%-6.66px)]">
+          {reviews.reviews.map((item, index) => (
+            <li key={index} className="list-none snap-start min-h-[200px] min-w-full sm:min-w-[calc(50%-5px)] lg:min-w-[calc(33.33%-6.66px)]">
               <div className="flex flex-col justify-between bg-white rounded-xl p-[40px] h-full text-left items-start gap-[15px]" style={{ boxShadow: "0 1px 4px hsla(0, 0%, 0%, 0.2)" }}>
                 
                 <div>
