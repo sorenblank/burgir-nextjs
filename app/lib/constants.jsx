@@ -213,3 +213,48 @@ export const reviews = {
     }
   ]
 }
+
+
+export const banner = {
+  banner1: {
+    bannerImg: "/banner-1.jpg",
+    bannerWidth: 550,
+    bannerHeight: 450,
+    texts: {
+      text1: "50% Off Now!",
+      text2: "Discount For Delicious Tasty Pastas!",
+      text3: "Sale off 50% only this week"
+    },
+    buttonText: "Order Now",
+  },
+  banner2: {
+    bannerImg: "/banner-2.jpg",
+    bannerWidth: 550,
+    bannerHeight: 465,
+    texts: {
+      text1: "Delicious Pizza",
+      text2: "50% off Now"
+    },
+    buttonText: "Order Now",
+  },
+  banner3: {
+    bannerImg: "/banner-3.jpg",
+    bannerWidth: 550,
+    bannerHeight: 465,
+    texts: {
+      text1: "American Burgers",
+      text2: "60% off Now"
+    },
+    buttonText: "Order Now",
+  },
+  banner4: {
+    bannerImg: "/banner-4.jpg",
+    bannerWidth: 550,
+    bannerHeight: 220,
+    texts: {
+      text1: "Tasty Buzzed Pizza",
+      text2: "Sale off 30% only this week"
+    },
+    buttonText: "Order Now",
+  }
+}
