@@ -59,7 +59,7 @@
   }
 
   body{
-    @apply bg-white text-n-sonicSilver text-[16px] leading-[1.6];
+    @apply bg-white text-n-sonicsilver text-[16px] leading-[1.6];
   }
 
   .containerr{

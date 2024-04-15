@@ -18,7 +18,7 @@ module.exports = {
           offwhite2: "#e8ccbb",
           yellow: "#FF9D2E",
           notyellow: "#FF8D29",
-          sonicSilver: "#787878",
+          sonicsilver: "#787878",
           richblackfogra: "#0e0e12",
           champagnepink: "#f1d6c6",
           saffron: "#ff9d2e",
