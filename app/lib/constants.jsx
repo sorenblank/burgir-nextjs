@@ -262,7 +262,7 @@ export const banner = {
 export const blog = {
     subTitle: "Latest Blog Posts",
     title: {text: "This Is All About", highlight: "Foods"},
-    description: "Our blog features the latest news and updates about food and restaurants. Check out our latest blog posts below.",
+    description: "Our blog features the latest news and updates. Check out our latest blog posts below.",
     posts: [
       {
         title: "Making Perfect Spring Rolls at Home.",
