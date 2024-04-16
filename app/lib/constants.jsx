@@ -330,3 +330,34 @@ export const reservation = {
     }
   ]
 }
+
+export const footer = {
+  copyrightText : "© 2024 All rights reserved",
+  socialLinks : [
+    {
+      name: "Facebook",
+      url: "#",
+      icon: "/facebook.svg",
+    },
+    {
+      name: "Instagram",
+      url: "#",
+      icon: "/instagram.svg",
+    },
+    {
+      name: "Twitter",
+      url: "#",
+      icon: "/twitter.svg",
+    },
+    {
+      name: "Discord",
+      url: "#",
+      icon: "/discord.svg",
+    },
+    {
+      name: "Telegra",
+      url: "#",
+      icon: "/telegram.svg",
+    }
+  ]
+}
