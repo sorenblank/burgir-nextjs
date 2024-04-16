@@ -9,6 +9,7 @@ import CTA from "@/app/pages/CTA";
 import Delivery from "@/app/pages/Delivery";
 import Reviews from "@/app/pages/Reviews";
 import Banner from "@/app/pages/Banner";
+import Blog from "@/app/pages/Blog";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Delivery />
       <Reviews />
       <Banner />
+      <Blog />
     </div>
     </>
   );
