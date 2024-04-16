@@ -1,8 +1,13 @@
+// Constants
 import { about } from "../lib/constants"
+
+// Components
+import Img from "../components/Image"
 import Button from "../components/Button"
+
+// Assets
 import { IoCheckmarkCircleOutline } from "react-icons/io5"
 
-import Img from "../components/Image"
 
 const About = () => {
   return (

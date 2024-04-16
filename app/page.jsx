@@ -1,5 +1,6 @@
 "use client";
 
+// Layout
 import Header from "@/app/pages/Header";
 import Hero from "@/app/pages/Hero";
 import Promo from "@/app/pages/Promo";

@@ -1,7 +1,10 @@
+// Constants
+import { hero } from "../lib/constants"
+
+// Components
 import Button from "../components/Button"
 import Img from "../components/Image"
 
-import { hero } from "../lib/constants"
 
 const Hero = () => {
   return (

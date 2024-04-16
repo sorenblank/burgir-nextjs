@@ -1,6 +1,9 @@
+// Constants
+import { promo } from "../lib/constants"
+
+// Components
 import Img from "../components/Image"
 
-import { promo } from "../lib/constants"
 
 const Promo = () => {
   return (

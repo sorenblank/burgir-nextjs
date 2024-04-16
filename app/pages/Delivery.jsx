@@ -1,7 +1,13 @@
+// Libraries
 import { useEffect, useState, useRef } from 'react';
+
+// Constants
 import { delivery } from "../lib/constants"
-import Button from "../components/Button"
+
+// Components
 import Img from "../components/Image"
+import Button from "../components/Button"
+
 
 const Delivery = () => {
   const [deliveryBoyMove, setDeliveryBoyMove] = useState(-80);

@@ -1,7 +1,13 @@
+// Libraries
+import { useState, useEffect } from 'react';
+
+// Constants
 import { menu } from "../lib/constants";
 
+// Components
 import Img from "../components/Image";
-import { useState, useEffect } from 'react';
+
+// Assets
 import { IoStar } from "react-icons/io5"
 
 const Menu = () => {

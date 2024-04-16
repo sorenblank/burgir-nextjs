@@ -1,5 +1,10 @@
-import Img from "../components/Image"
+// Constants
 import { reviews } from "../lib/constants"
+
+// Components
+import Img from "../components/Image"
+
+// Assets
 import { IoStar } from "react-icons/io5"
 
 const Reviews = () => {

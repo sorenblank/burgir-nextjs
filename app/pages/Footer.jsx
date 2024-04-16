@@ -1,5 +1,8 @@
-import Img from "../components/Image"
+// Constants
 import { footer } from "../lib/constants"
+
+// Components
+import Img from "../components/Image"
 
 const Footer = () => {
   return (

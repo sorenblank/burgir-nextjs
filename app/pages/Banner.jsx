@@ -1,6 +1,9 @@
+// Constants
+import { banner } from "../lib/constants";
+
+// Components
 import Img from "../components/Image";
 import Button from "../components/Button";
-import { banner } from "../lib/constants";
 
 const Banner = () => {
   return (

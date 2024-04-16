@@ -1,6 +1,10 @@
+// Constants
+import { cta } from "../lib/constants";
+
+// Components
 import Img from "../components/Image"
 import Button from "../components/Button";
-import { cta } from "../lib/constants";
+
 
 const CTA = () => {
   return (

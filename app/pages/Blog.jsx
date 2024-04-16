@@ -1,6 +1,11 @@
-import { IoArrowForward, IoCalendarOutline, IoPersonOutline } from "react-icons/io5"
-import Img from "../components/Image"
+// Constants
 import { blog } from "../lib/constants"
+
+// Components
+import Img from "../components/Image"
+
+// Assets
+import { IoArrowForward, IoCalendarOutline, IoPersonOutline } from "react-icons/io5"
 
 
 const Blog = () => {
