@@ -33,7 +33,7 @@ const Reservation = () => {
                 <option value="5">5 Person</option>
               </select>
 
-              <input type="date" placeholder="mm/dd/yyyy" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full h-[45px]" required/>
+              <input type="date" placeholder="mm/dd/yyyy" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full h-[45px]" required/>
             </div>
 
               <textarea placeholder="Message" className="p-[10px] text-[#9ca3af] border border-solid border-n-cultured rounded-md w-full min-h-[130px] resize-none" required/>
