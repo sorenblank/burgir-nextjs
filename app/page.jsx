@@ -11,6 +11,7 @@ import Reviews from "@/app/pages/Reviews";
 import Banner from "@/app/pages/Banner";
 import Blog from "@/app/pages/Blog";
 import Reservation from "@/app/pages/Reservation";
+import Footer from "@/app/pages/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Banner />
       <Blog />
       <Reservation />
+      <Footer/>
     </div>
     </>
   );
