@@ -258,3 +258,32 @@ export const banner = {
     buttonText: "Order Now",
   }
 }
+
+export const blog = {
+    subTitle: "Latest Blog Posts",
+    title: {text: "This Is All About", highlight: "Foods"},
+    description: "Our blog features the latest news and updates about food and restaurants. Check out our latest blog posts below.",
+    posts: [
+      {
+        title: "Making Perfect Spring Rolls at Home.",
+        author: "Paul Attard",
+        date: "Mar 16, 2024",
+        description: "Spring rolls are a popular dish in many Asian countries. They are typically made with a thin wrapper...",
+        image: "/blog-1.jpg",
+      },
+      {
+        title: "Making Chicken Sandwich With New Delicious Ingridents.",
+        author: "John Sevaska",
+        date: "Feb 29, 2024",
+        description: "Chicken sandwiches are a classic dish that can be made in many different ways. In this blog post...",
+        image: "/blog-2.jpg",
+      },
+      {
+        title: "Making Perfect Kebaabs with New Recipe.",
+        author : "Leto Sevan",
+        date: "Jan 21, 2024",
+        description: "Kebabs are a popular dish in many Middle Eastern countries. They are typically made with ground meat...",
+        image: "/blog-3.jpg",
+      },
+    ]
+}
