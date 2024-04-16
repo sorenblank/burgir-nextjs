@@ -17,7 +17,7 @@ const Reservation = () => {
             
             <div className="grid gap-[10px] mb-[10px] md:grid-cols-2">
               <input type="text" placeholder="Name" className="p-[10px] text-[#9ca3af] border border-solid border-n-cultured rounded-md" required/>
-              <input type="email" placeholder="Email" className="p-[10px] text-[#9ca3af] border border-solid border-n-cultured rounded-md" required/>
+              <input type="email" placeholder="Email" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md" required/>
             </div>
 
             <div className="grid gap-[10px] mb-[10px] md:grid-cols-2">
