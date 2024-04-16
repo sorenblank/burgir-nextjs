@@ -35,7 +35,7 @@ const Delivery = () => {
   return (
     <section id='delivery' className="relative overflow-hidden md:text-left py-[60px] lg:pt-[120px] lg:pb-[60px]">
       <div className="containerr md:grid md:grid-cols-2 md:items-center md:gap-[30px]">
-        <div>
+        <div className='mb-[60px] lg:mb-0'>
           <h2 className="h2 font-rubik text-[32px] text-n-richblackfogra leading-[1.5] tracking-[-2px] max-w-[17ch] mx-auto md:mx-0 lg:text-[42px]">
             {delivery.title.text}{" "} <span className="text-n-yellow">{delivery.title.highlight}</span>
           </h2>
