@@ -287,3 +287,46 @@ export const blog = {
       },
     ]
 }
+
+export const reservation = {
+  form : {
+    formTitle: "Book A Table",
+    buttonText: "Book Now",
+  },
+  sections : [
+    {
+      title: "Opening Hours",
+      description: [
+        {
+          title: "Monday-Friday",
+          info: "08:00-22:00",
+        },
+        {
+          title: "Only on Tuesday",
+          info: "04:00-01:00",
+        },
+        {
+          title: "Only on Saturday",
+          info: "10:00-16:00",
+        }
+      ],
+    },
+    {
+      title: "Contact Info",
+      description: [
+        {
+          title: "Phone",
+          info: "+1 (062) 109-9222",
+        },
+        {
+          title: "Email",
+          info: "info@burgir.com"
+        },
+        {
+          title: "Address",
+          info: "Ulitsa Drakonova 12, Novograd, Sokovia",
+        }
+      ]
+    }
+  ]
+}
