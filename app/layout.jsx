@@ -7,6 +7,10 @@ export const metadata = {
   image: "https://burgir-nextjs.vercel.app/og-image.png", // Image for the website
   keywords: ["Burgir", "NextJS", "BurgirNextJS"], // Keywords for the website
   openGraph: { // Open Graph data for the website
+    title: "Burgir | NextJS",
+    description: "Burgir is a modern and stylish restaurant that offers a variety of delicious meals. Our menu includes a wide range of burgers, sandwiches, salads, and more. Visit us today and experience the best meals in town!",
+    url: "https://burgir-nextjs.vercel.app",
+    type: "website",
     images: [
       {
         url: "https://burgir-nextjs.vercel.app/og-image.png", // Open Graph image for the website
