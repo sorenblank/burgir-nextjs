@@ -1,5 +1,9 @@
-import Button from "../components/Button";
+// Constants
 import { reservation } from "../lib/constants";
+
+// Components
+import Button from "../components/Button";
+
 
 const Reservation = () => {
   return (
@@ -16,12 +20,12 @@ const Reservation = () => {
             </div>
             
             <div className="grid gap-[10px] mb-[10px] md:grid-cols-2">
-              <input type="text" placeholder="Name" className="p-[10px] text-[#9ca3af] border border-solid border-n-cultured rounded-md" required/>
-              <input type="email" placeholder="Email" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md" required/>
+              <input type="text" placeholder="Name" className="p-[10px] text-[#9ca3af] border border-solid border-n-cultured rounded-md w-full h-[45px]" required/>
+              <input type="email" placeholder="Email" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full h-[45px]" required/>
             </div>
 
             <div className="grid gap-[10px] mb-[10px] md:grid-cols-2">
-              <select className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full">
+              <select className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full h-[45px]">
                 <option value="Person" disabled selected>Person</option>
                 <option value="2">2 Person</option>
                 <option value="3">3 Person</option>
@@ -29,7 +33,7 @@ const Reservation = () => {
                 <option value="5">5 Person</option>
               </select>
 
-              <input type="date" placeholder="Date" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full" required/>
+              <input type="date" placeholder="mm/dd/yyyy" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" className="p-[10px] text-[#9ca3af] bg-white border border-solid border-n-cultured rounded-md w-full h-[45px]" required/>
             </div>
 
               <textarea placeholder="Message" className="p-[10px] text-[#9ca3af] border border-solid border-n-cultured rounded-md w-full min-h-[130px] resize-none" required/>
