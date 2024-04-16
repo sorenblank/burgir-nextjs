@@ -10,6 +10,7 @@ import Delivery from "@/app/pages/Delivery";
 import Reviews from "@/app/pages/Reviews";
 import Banner from "@/app/pages/Banner";
 import Blog from "@/app/pages/Blog";
+import Reservation from "@/app/pages/Reservation";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Reviews />
       <Banner />
       <Blog />
+      <Reservation />
     </div>
     </>
   );
