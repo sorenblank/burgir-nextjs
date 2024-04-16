@@ -28,7 +28,8 @@ module.exports = {
           cinnabar: "#f42f25",
           cultured : "#ededed",
           gray: "#bababa",
-          notgray: "#dedede"
+          notgray: "#dedede",
+          independence: "#3f3d574d",
         },
       },
       fontFamily: {
