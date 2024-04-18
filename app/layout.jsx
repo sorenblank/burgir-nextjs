@@ -11,6 +11,7 @@ export const metadata = {
     description: "Burgir is a modern and stylish restaurant that offers a variety of delicious meals. Our menu includes a wide range of burgers, sandwiches, salads, and more. Visit us today and experience the best meals in town!",
     url: "https://burgir-nextjs.vercel.app",
     type: "website",
+    siteName: "Burgir | NextJS",
     images: [
       {
         url: "https://burgir-nextjs.vercel.app/og-image.png", // Open Graph image for the website
@@ -21,6 +22,7 @@ export const metadata = {
     title: "Burgir | NextJS",
     description: "Burgir is a modern and stylish restaurant that offers a variety of delicious meals. Our menu includes a wide range of burgers, sandwiches, salads, and more. Visit us today and experience the best meals in town!",
     url: "https://burgir-nextjs.vercel.app",
+    domain: "burgir-nextjs.vercel.app",
     cardType: "summary_large_image",
     site: "@soren_blank",
     images: [
